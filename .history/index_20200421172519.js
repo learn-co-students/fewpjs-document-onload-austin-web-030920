@@ -5,4 +5,6 @@ function onLoaded(event) {
     text.innerHTML = 'This is really cool!'
 }
 
-document.addEventListener("DOMContentLoaded", onLoaded);
+document.addEventListener("DOMContentLoaded", onLoaded) {
+    console.log("The DOM has loaded");
+};
